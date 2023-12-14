@@ -1,0 +1,21 @@
+.gallery {
+  width: 100%;
+  height: auto;
+}
+
+.gallery h2 {
+  padding: 0 24px;
+  color: rgb(181, 2, 2);
+}
+
+.images__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  margin: 1rem;
+}
+
+.image {
+  object-fit: cover;
+}

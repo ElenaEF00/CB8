@@ -1,0 +1,19 @@
+.Card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12px;
+  box-shadow: lightgray;
+  width: 200px;
+}
+
+.Card img {
+  border-radius: 12px;
+
+  width: 100%;
+  height: auto;
+}
+
+.Card button {
+  margin: 0.5rem;
+}

@@ -1,0 +1,45 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem;
+}
+
+.hero__img {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  object-fit: cover;
+}
+
+.hero__img img {
+  width: 70%;
+}
+
+.hero__text {
+  width: 40%;
+}
+
+.hero__text h1 {
+  margin: 2rem 0;
+}
+
+.hero__text p {
+  margin: 0 0 2rem 0;
+}
+
+.hero__text button {
+  background-color: rgb(181, 2, 2);
+}
+
+.hero__text button:hover {
+  background-color: #f9f9f9;
+  color: rgb(181, 2, 2) !important;
+  border-color: rgb(181, 2, 2);
+}

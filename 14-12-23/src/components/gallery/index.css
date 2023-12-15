@@ -1,0 +1,51 @@
+.gallery {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  padding: 0 24px;
+  color: rgb(181, 2, 2);
+}
+
+.images__wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.images__wrapper img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.buttons {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  color: white;
+  padding: 0.5rem 1rem;
+}
+
+.btn:hover {
+  background-color: rgb(181, 2, 2);
+}

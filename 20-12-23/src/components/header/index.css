@@ -1,0 +1,44 @@
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__wrapper {
+  display: flex;
+  max-width: 90%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  gap: 2rem;
+}
+
+.header__user img {
+  border-radius: 30px;
+}
+
+.header__logo img {
+  height: 40px;
+}
+
+.header__settings img {
+  height: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .header__wrapper {
+    gap: 5rem;
+  }
+  .header__user img {
+    width: 60px;
+    border-radius: 30px;
+  }
+
+  .header__logo img {
+    height: 60px;
+  }
+
+  .header__settings img {
+    height: 60px;
+  }
+}

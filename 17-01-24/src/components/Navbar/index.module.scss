@@ -1,0 +1,42 @@
+@import "../../assets/css/variables.scss";
+
+.Navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $bg-color;
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+
+    .menu {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+
+      .links {
+        text-decoration: none;
+        color: $primary-color;
+      }
+    }
+
+    .icons {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+
+      .images {
+        width: 1.7rem;
+        height: auto;
+      }
+    }
+  }
+}

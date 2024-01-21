@@ -1,0 +1,55 @@
+@import "../../assets/css/variables.scss";
+
+.Book {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 200px;
+  padding: 12px;
+  background-color: $bg-color;
+  border-radius: 14px;
+  font-size: 1rem;
+  transition: background 0.35s;
+  cursor: pointer;
+
+  a {
+    color: $third-color;
+    text-decoration: none;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &:hover {
+    background-color: $fourth-color;
+  }
+
+  .image {
+    width: 100px;
+    height: 160px;
+    border-radius: 14px;
+    transform: translate(-0px, -30px);
+  }
+
+  .title {
+    margin: 0;
+    font-weight: bold;
+    color: $primary-color;
+    transform: translate(-0px, -30px);
+    max-width: 150px;
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+  }
+
+  .author {
+    font-size: 0.8rem;
+    margin: 4px 0;
+    text-transform: uppercase;
+    color: $third-color;
+    transform: translate(-0px, -30px);
+  }
+}

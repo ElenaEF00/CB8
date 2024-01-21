@@ -1,0 +1,39 @@
+@import "../../assets/css/variables.scss";
+
+.Add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .AddInput {
+    border-radius: 5px;
+    display: flex;
+    width: 90%;
+    gap: 1rem;
+
+    .AddInput__input {
+      width: 80%;
+      outline: none;
+      border: 1px solid $third-color;
+      border-radius: 12px;
+      color: $third-color;
+      padding: 10px;
+    }
+
+    .AddInput__btn {
+      background: $third-color;
+      color: #fff;
+      border: none;
+      border-radius: 12px;
+      padding: 0.55rem;
+    }
+    .AddInput__btn:hover {
+      background: $secondary-color;
+      color: #fff;
+    }
+
+    ::placeholder {
+      color: $third-color;
+    }
+  }
+}

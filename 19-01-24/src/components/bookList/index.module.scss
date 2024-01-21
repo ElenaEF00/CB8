@@ -1,0 +1,41 @@
+@import "../../assets/css/variables.scss";
+
+.BookList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 10px 20px;
+
+  .title {
+    color: $fourth-color;
+  }
+
+  .list {
+    height: 250px;
+    padding: 20px 0 10px;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    overflow-x: scroll;
+  }
+  .list::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: transparent;
+  }
+
+  .list::-webkit-scrollbar {
+    width: 5%;
+    background-color: transparent;
+    height: 10px;
+  }
+
+  .list::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-image: -webkit-linear-gradient(
+      0deg,
+      $secondary-color,
+      $primary-color
+    );
+  }
+}

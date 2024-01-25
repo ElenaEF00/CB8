@@ -1,0 +1,52 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .mainInfo {
+    max-width: 50%;
+    border: 2px solid darkgray;
+    border-radius: 12px;
+    padding: 0.5rem;
+    margin: 0.5rem auto;
+  }
+
+  .steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: decimal;
+
+    .step {
+      max-width: 60%;
+
+      .stepInfo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .firstStepImg {
+          width: 400px;
+          height: auto;
+        }
+        .secondStepImg {
+          width: 350px;
+          height: auto;
+        }
+      }
+    }
+  }
+  .guideBtn {
+    width: 50%;
+    background-color: #4fc85b;
+    color: #fff;
+    border: 0;
+    border-radius: 12px;
+    height: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+}

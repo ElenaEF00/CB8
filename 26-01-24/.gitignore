@@ -1,0 +1,8 @@
+node_modules/
+
+.next/%
+next.config.mjs
+
+jsconfig.json
+postcss.config.js
+tailwind.config.js

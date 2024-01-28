@@ -1,0 +1,28 @@
+.form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  border-radius: 12px;
+  border: 2px solid transparent;
+  outline: 0;
+  padding: 10px 15px;
+  margin: 10px;
+  width: 65%;
+}
+
+.btn {
+  border: 2px solid white;
+  border-radius: 12px;
+  background-color: rgb(255, 192, 253);
+  padding: 10px 15px;
+  color: white;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background-color: white;
+  color: rgb(255, 192, 253);
+}

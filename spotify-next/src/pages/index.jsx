@@ -7,7 +7,7 @@ import Image from "next/image";
 import Spotify_logo from "../assets/SpotifyLogoWhite.png";
 
 export default function Login() {
-  const clientID = "cd5bbd3f624048e2b1ff9601cfdfa93b";
+  const clientID = "2b52748b57f3492db622494f13ae398f";
   const redirect = "http://localhost:3000";
   const AUTH_ENDPOINT = "http://accounts.spotify.com/authorize";
   const resType = "token";

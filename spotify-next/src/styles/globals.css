@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Proxima+Nova");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Proxima Nova", sans-serif;
+  background-color: #191414;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}

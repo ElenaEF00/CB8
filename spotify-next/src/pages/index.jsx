@@ -8,7 +8,7 @@ import Spotify_logo from "../assets/SpotifyLogoWhite.png";
 
 export default function Login() {
   const clientID = "2b52748b57f3492db622494f13ae398f";
-  const redirect = "http://localhost:3000";
+  const redirect = "https://spotify-next-amber.vercel.app/";
   const AUTH_ENDPOINT = "http://accounts.spotify.com/authorize";
   const resType = "token";
 

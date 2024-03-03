@@ -1,0 +1,27 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <h1 class="title">Benvenuto!</h1>
+    <ul>
+      <li><a href="/quotes">Visualizza le citazioni</a></li>
+      <li><a href="/endpoints">Visualizza gli endpoints</a></li>
+    </ul>
+    <h2 class="title">Aggiungi la tua citazione</h2>
+    <form class="form" action="/quotes" method="POST">
+      <div>
+        <label for="quote">Citazione:</label>
+        <input type="text" id="quote" name="quote" placeholder='"When I am silent..."' required/>
+      </div>
+      <div>
+        <label for="author">Autore:</label>
+        <input type="text" id="author" name="author" placeholder="Rumi" required />
+      </div>
+      <button type="submit" class="addBtn">Aggiungi</button>
+    </form>
+  </body>
+</html>

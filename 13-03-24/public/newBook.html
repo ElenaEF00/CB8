@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aggiungi nuovi libri</title>
+  </head>
+  <body>
+    <form action="/books" method="POST">
+      <label for="titolo">Titolo</label>
+      <input type="text" name="titolo" id="titolo" placeholder="Titolo" />
+      <br />
+      <label for="autore">Autore</label>
+      <input type="text" name="autore" id="autore" placeholder="Autore" />
+      <br />
+      <label for="genere">Anno</label>
+      <input
+        type="text"
+        name="anno"
+        id="anno"
+        placeholder="Anno di Pubblicazione"
+      />
+      <br />
+      <label for="genere">Genere</label>
+      <input type="text" name="genere" id="genere" placeholder="Genere" />
+      <br />
+      <input type="submit" value="Inserisci" />
+    </form>
+  </body>
+</html>
